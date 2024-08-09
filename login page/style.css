@@ -1,0 +1,105 @@
+/* Basic reset and full height layout */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(135deg, #ff6b6b, #f06595);
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff6b6b;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f06595;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+}
+/* Success Page Styles */
+.success-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    color: white;
+    text-align: center;
+}
+
+.success-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.success-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.success-container .button {
+    padding: 10px 20px;
+    background: white;
+    color: #4caf50;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.success-container .button:hover {
+    background: #e8f5e9;
+}

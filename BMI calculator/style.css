@@ -1,0 +1,76 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #00796b;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+label {
+    flex: 1;
+    margin-bottom: 5px;
+    color: #00796b;
+}
+
+input[type="number"], select {
+    flex: 2;
+    padding: 10px;
+    border: 2px solid #00796b;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+select {
+    width: auto;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #004d40;
+    text-align: center;
+}
